@@ -3,6 +3,13 @@
   "displayName": "Create JavaFX Project",
   "description": "Creates a new JavaFX project (no build tools)",
   "version": "0.0.1",
+  "private": true,
+  "publisher": "average-failure",
+  "author": {
+    "name": "average-failure",
+    "url": "https://github.com/average-failure",
+    "email": "jarrettchong07@gmail.com"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -15,7 +22,8 @@
     "commands": [
       {
         "command": "create-jfx-project.createNew",
-        "title": "Create new JavaFX project"
+        "title": "Create new JavaFX project",
+        "category": "JavaFX"
       }
     ]
   },
